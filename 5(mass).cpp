@@ -1,5 +1,5 @@
-#include <iostream>
-#include <stdio.h>
+#include <iostream> /*перебор эффективный, потому что нам так или иначе нужно просмотреть каждый элемент массива*/
+#include <stdio.h> /*быстрее, чем за n шагов это сделать нельзя*/
 using namespace std;
 void mass(int a[],int n,int k)
 {
