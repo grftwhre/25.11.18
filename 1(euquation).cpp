@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> /*проверяем только х и по ним подходящие у, вместо того, чтобы проверять и х, и у*/
 #include <stdio.h>
 using namespace std;
 int main()
