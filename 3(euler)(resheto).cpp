@@ -1,5 +1,5 @@
-#include <iostream>
-#include <stdio.h>
+#include <iostream> /*я не разобралась, почему она неккоректно работает, но тут есть решето эратосфена */
+#include <stdio.h> /*файл корректно работающей приложен в 3(funceuler)*/
 using namespace std;
 int euler(int n)
 {
