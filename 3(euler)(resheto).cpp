@@ -9,10 +9,9 @@ for (int y = 0; y<=n; y++)
  A[y]=0;
 for (int i=2; i<n; i++)
 {
- for(int x=i*i; x<=n; x=x+i)
+ for(long x=i*i; x<=n; x=x+i)
 {
- if (x>n) break;
- else A[x]=1;
+ A[x]=1;
 }
 }
 
