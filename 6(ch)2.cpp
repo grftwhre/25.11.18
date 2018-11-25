@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> /*через решето эратосфена*/
 #include <stdio.h>
 using namespace std;
 int main()
